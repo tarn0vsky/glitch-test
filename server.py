@@ -1,6 +1,6 @@
 import os
-
 from flask import Flask
+
 
 app = Flask(__name__)
 
@@ -14,7 +14,6 @@ def index():
 def nga():
     return ("<h1>Привет, нига!</h1>"
             "<h2>Я за тобой наблюдаю!</h2>")
-
 
 
 if __name__ == '__main__':
